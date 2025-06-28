@@ -1,0 +1,22 @@
+/* Light theme (default) */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  background-color: #fff;
+  color: #333;
+}
+
+input {
+  background-color: #fff;
+  color: #333;
+  border-color: #ccc;
+}
+
+#results {
+  background-color: #f9f9f9;
+  color: #333;
+  border-color: #ddd;
+}
