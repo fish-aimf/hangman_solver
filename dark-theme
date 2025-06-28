@@ -1,0 +1,27 @@
+/* Dark theme */
+body {
+  background-color: #333;
+  color: #f4f4f4;
+}
+
+.container {
+  background-color: #444;
+  color: #f4f4f4;
+}
+
+input {
+  background-color: #555;
+  color: #f4f4f4;
+  border-color: #666;
+}
+
+#results {
+  background-color: #555;
+  color: #f4f4f4;
+  border-color: #666;
+}
+
+#themeButton {
+  background-color: #666;
+  color: #f4f4f4;
+}
