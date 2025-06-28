@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>solver</title>
+  <link rel="stylesheet" href="style.css">
+  <link id="theme-style" rel="stylesheet" href="light-theme.css"> <!-- Default theme -->
+</head>
+<body>
+  <div class="container">
+    <div class="theme-toggle">
+      <button id="themeButton">🌙 Dark Mode</button>
+    </div>
+    <h1>solver</h1>
+    <p>Enter the word pattern (use underscores for unknown letters):</p>
+    <input type="text" id="wordInput" placeholder="e.g., bi_ or big">
+    <div class="mode-toggle">
+      <input type="checkbox" id="containsMode" name="containsMode">
+      <label for="containsMode">Show words containing this text</label>
+    </div>
+    <h2>Possible Words:</h2>
+    <div id="results"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
